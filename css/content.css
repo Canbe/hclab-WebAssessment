@@ -1,0 +1,156 @@
+.content{
+}
+.content .header .inbox .left span a:hover{
+  background-color: #be590a;
+}
+.content .header .inbox .right .login a:hover{
+  background-color: #0a628f;
+}
+@media screen and (max-width:1600px) and(min-width:992px){
+  .content .header .inbox{
+    width: 100%;
+  }
+}
+.content .header{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: #fff;
+  padding:10px 0;
+  border: 1px solid #dee5e7;
+  margin-top: 50px;
+  height: 100px;
+  position: relative;
+}
+@media screen and (min-width:992px) {
+
+  .content .header .inbox{
+    display: block;
+    width: 70%;
+    max-width: 935px;
+    box-sizing: border-box;
+    margin:15px auto;
+  }
+  .content .header .inbox .left{
+    width: 60%;
+    display: block;
+    float: left;
+  }
+  .content .header .inbox .left img{
+    float: left;
+    width: 180px;
+  }
+  .content .header .inbox .left span{
+    float: left;
+    margin-left: 20px;
+  }
+  .content .header .inbox .left span a{
+    display: block;
+    text-decoration: none;
+    color:#eee;
+    background-color: #f37b1d;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+    box-sizing: border-box;
+    border-radius: 5px;
+    border-color: #f37b1d;
+  }
+  .content .header .inbox .right{
+    width:40%;
+    display: block;
+    float: left;
+  }
+  .content .header .inbox .right .username{
+    float:left;
+    width: 30%;
+  }
+  .content .header .inbox .right .password{
+    float: left;
+    width: 30%;
+  }
+  .content .header .inbox .right .login{
+    float: left;
+    width: 20%;
+  }
+  .content .header .inbox .right input{
+    width: 90%;
+  }
+  .content .header .inbox .right .password label input{
+  width: 10%;
+  position: relative;
+  height: 10px;
+  }
+
+  .content .header .inbox .right .password label{
+    cursor: pointer;
+    font-size: 10px;
+    width: 100%;
+  }
+  .content .header .inbox .right .login a{
+    display: block;
+    width: 90%;
+    height:30px;
+    line-height: 30px;
+    text-decoration: none;
+    background-color: #0a6999;
+    color: #eee;
+    text-align: center;
+    border-radius: 5px;
+  }
+}
+@media screen and (max-width:992px) {
+  .content .header{
+    height: 280px;
+  }
+  .content .header .inbox{
+    text-align: center;
+  }
+  .content .header .inbox .left{
+
+  }
+  .content .header .inbox .left img{
+
+  }
+  .content .header .inbox .left span{
+    margin-top: 15px;
+  }
+  .content .header .inbox .left span a{
+    display: none;
+  }
+  .content .header .inbox .right{
+    margin-top: 20px;
+    width: 100%;
+    float: left;
+  }
+  .content .header .inbox .right .username{
+    width: 100%;
+  }
+  .content .header .inbox .right .password{
+    width: 100%;
+  }
+  .content .header .inbox .right .login{
+    text-align: center;
+  }
+  .content .header .inbox .right input{
+      width: 80%;
+  }
+  .content .header .inbox .right .password label input{
+      width:50px;
+  }
+
+  .content .header .inbox .right .password label{
+  }
+  .content .header .inbox .right .login a{
+    display: block;
+    width: 40%;
+    height:30px;
+    line-height: 30px;
+    text-decoration: none;
+    background-color: #0a6999;
+    color: #eee;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+}

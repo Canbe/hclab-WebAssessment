@@ -1,0 +1,223 @@
+.m_topNav{
+  width: 100%;
+  height: 50px;
+  background-color: #3498db;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  /* display: none; */
+}
+.m_topNav .logo{
+  width: 190px;
+  height: 100%;
+  margin-left: 10px;
+  float: left;
+}
+.m_topNav .logo img{
+  width: 150px;
+  float: right;
+}
+
+@media screen and (min-width:992px) {
+  .m_topNav .intro{
+    line-height: 50px;
+    height: 50px;
+    float: left;
+    background-color: #3498db;
+    list-style: none;
+
+  }
+  .m_topNav .intro>li{
+    width:70px;
+    height: 100%;
+    margin-left: 20px;
+  }
+  .m_topNav .intro>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    color:#eee;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+  }
+  .m_topNav .intro>li>a:hover{
+    background-color: #eee;
+    color: #666;
+  }
+
+  .m_topNav .userNav{
+    height:100%;
+    float: right;
+    margin-left: 30px;
+    list-style: none;
+  }
+  .m_topNav .userNav>li{
+    width: 70px;
+    height: 100%;
+    line-height: 50px;
+    text-align: center;
+    float:left;
+    margin-right: 20px;
+  }
+  .m_topNav .userNav>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color:#eee
+  }
+  .m_topNav .userNav>li>a:hover{
+    background-color: #eee;
+    color:#666;
+  }
+  .m_topNav .userNav .search{
+    width: 250px;
+  }
+  .m_topNav .userNav .search .inbox{
+    width: 230px;
+    height: 80%;
+  }
+  .m_topNav .userNav .search .inbox .group{
+    width: 100%;
+    height: 100%;
+    margin-top: 8px;
+  }
+  .m_topNav .userNav .search .inbox input{
+    width: 80%;
+    height:35px;
+    float: left;
+  }
+  .m_topNav .userNav .search .inbox a{
+    display: block;
+    width: 20%;
+    height: 35px;
+    background-color:#3bb4f2;
+    float: left;
+  }
+  .btn_UserNav{
+    display: none;
+  }
+  .m_topNav .userNav .home{
+    display: none;
+  }
+/* 右侧导航栏*/
+  .sideNav{
+    width: 65px;
+    height: 100%;
+    position:fixed;
+    left: 0;
+    top:50px;
+    z-index: 10;
+    background-color: rgb(52,73,94);
+  }
+  .sideNav .btnList{
+    width: 65px;
+    list-style: none;
+  }
+  .sideNav .btnList>li{
+      width: 100%;
+      height: 60px;
+      float: left;
+      position: relative;
+  }
+  .sideNav .btnList>li>a{
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .sideNav .btnList>li>a:hover{
+    background-color: rgb(130, 42, 236);
+  }
+  .sideNav .btnList>li span{
+    position: absolute;
+    top:18px;
+    left:80px;
+    width:inherit;
+    background-color: rgb(52,73,94);
+    color: #eee;
+    border-radius:10px;
+    text-align: center;
+    display: none;
+  }
+}
+@media screen and (max-width:992px) {
+  .sideNav{
+    display: none;
+  }
+  .m_topNav .intro{
+      display: none;
+  }
+  .btn_UserNav{
+    width: 40px;
+    line-height: 30px;
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    background-color: #5eb95e;
+  }
+  .btn_UserNav:hover{
+    background-color: #2eb21e;
+  }
+
+  .m_topNav .userNav{
+    width: 100%;
+    float: left;
+    background-color: #3498db;
+    list-style: none;
+    display: none;
+  }
+  .m_topNav .userNav>li{
+    width: 100%;
+    height: 70px;
+
+  }
+  .m_topNav .userNav>li>a{
+    position: relative;
+    text-decoration: none;
+    top:20px;
+    display: block;
+    width: 90%;
+    height: 40px;
+    line-height: 40px;
+    padding-left:15px;
+    color: #eee;
+    margin:0 auto;
+  }
+  .m_topNav .userNav>li>a:hover{
+    background-color: rgb(164, 91, 72);
+  }
+  .m_topNav .userNav .search .inbox{
+    width:100%;
+    height: 50px;
+    text-align: center;
+  }
+  .m_topNav .userNav .search .inbox .group{
+      display: inline-block;
+      width: 90%;
+      height: 35px;
+      background-color: rgb(185, 219, 191);
+      position: relative;
+      top: 15px;
+  }
+  .m_topNav .userNav .search .inbox .group input{
+    width:85%;
+    height: 35px;
+    float: left;
+  }
+  .m_topNav .userNav .search .inbox .group a{
+    display: block;
+    width: 15%;
+    height: 35px;
+    float: left;
+    background-color:#3bb4f2;
+  }
+  .m_topNav .userNav .login{
+      display: none;
+  }
+  .m_topNav .userNav .register{
+      display: none;
+  }
+}
